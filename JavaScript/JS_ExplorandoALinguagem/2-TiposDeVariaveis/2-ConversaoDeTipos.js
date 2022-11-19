@@ -1,0 +1,20 @@
+//EXEMPLO DE SOMA COM VALORES DENTRO DE {""}
+console.log("2" + "2"); //O SINAL DE {+} NESTE CASO, FUNCIONA COMO UM CONCATENADOR DE STRINGS/TEXTO.
+//SAÍDA: 22
+
+//EXEMPLO DE SOMA COM VALORES SEM {""}
+console.log(2 + 2);
+//SAÍDA: 4
+
+//EXEMPLO ONDE E POSSÍVEL CONVERTER UM VALOR DENTRO DE {""} PARA NÚMERO:
+console.log(parseInt("2") + parseInt("2"));
+//{parseInt()} -> É UMA FUNÇÃO QUE CONVERTE O VALOR TIPO STRING PARA NÚMERO.
+//SAÍDA: 4
+
+//EXEMPLO COM ERRO ONDE NÃO E POSSÍVEL CONVERTER
+console.log("Werike" / parseInt("2"));
+//SAÍDA: NaN => NOT A NUMBER
+
+//EXEMPLO COM NÚMERO DE PONTO FLUTUANTE:
+console.log(parseFloat(0.5) + parseFloat(1.2));
+//{parseFloat()} É UMA FUNÇÃO QUE CONVERTE UM NÚMERO COM CASA DECIMAL.
